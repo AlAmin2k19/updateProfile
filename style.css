@@ -1,0 +1,147 @@
+.container {
+    max-width: 1000px;
+    background-color: #eae1f2;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway';
+    font-size: 12px;
+    line-height: 1.8em;
+    background: rgb(34, 193, 195);
+}
+
+a {
+    color: rgb(23, 124, 36);
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.about {
+    color: #d23404;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.black {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(214, 21, 15, 1) 100%);
+}
+
+.top {
+    margin-top: 22px;
+}
+
+.m {
+    color: #d23404;
+    text-align: center;
+    font-size: 22px;
+}
+
+.edu {
+    color: #d23404;
+    text-align: center;
+    font-size: 22px;
+}
+
+.con {
+    color: #d23404;
+    text-align: center;
+    font-size: 22px;
+}
+
+section {
+    margin: 1em;
+    padding: 1em;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+}
+
+header {
+    padding: 0.5em;
+    text-align: center;
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 3%, rgba(21, 66, 116, 1) 37%, rgba(120, 175, 193, 1) 82%);
+}
+
+header section {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+header img {
+    max-width: 120px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h3,
+h4 {
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+}
+
+main section:not(:last-child) {
+    border-bottom: 1px solid rgb(146, 182, 15);
+}
+
+.skills .column ul,
+ul.job-description {
+    list-style-type: none;
+}
+
+.skills .column ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #509e98;
+}
+
+footer {
+    padding: 1em 1.5em;
+    background: #A7B8BF;
+    color: black;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .course {
+        display: block;
+    }
+    .course .title,
+    .course .descrition {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .skills {
+        display: block;
+    }
+    .skills .column {
+        max-width: 100%;
+    }
+    footer {
+        background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(26, 12, 105, 1) 100%);
+        text-align: center;
+    }
+}
